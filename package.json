@@ -1,5 +1,5 @@
 {
-  "name": "@gabrielrq/web-db",
+  "name": "@gabrielrq/webdb",
   "version": "1.0.0",
   "description": "Minimal promise wrapper for the IndexedDB API.",
   "type": "module",
@@ -15,7 +15,7 @@
     "Wrapper"
   ],
   "author": "Gabriel RQ",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "readme": "README.md",
   "repository": {
     "type": "git",

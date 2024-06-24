@@ -15,7 +15,7 @@ The library is made in pure Javascript, and provides type declarations.
 To install it, run:
 
 ```bash
-npm i @gabrielrq/web-db
+npm i @gabrielrq/webdb
 ```
 
 # How to use
@@ -23,7 +23,7 @@ npm i @gabrielrq/web-db
 The library is pretty straigth-forward. Below is an example:
 
 ```js
-import { WebDB } from "@gabrielrq/web-db";
+import { WebDB } from "@gabrielrq/webdb";
 
 // set up
 const db = new WebDB("database", 1, {
