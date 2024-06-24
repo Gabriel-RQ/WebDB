@@ -1,0 +1,25 @@
+{
+  "name": "@gabrielrq/web-db",
+  "version": "1.0.0",
+  "description": "Minimal promise wrapper for the IndexedDB API.",
+  "type": "module",
+  "main": "src/webdb.js",
+  "types": "types/webdb.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IndexDB",
+    "Database",
+    "Promises",
+    "Wrapper"
+  ],
+  "author": "Gabriel RQ",
+  "license": "ISC",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-RQ/WebDB.git"
+  },
+  "homepage": "https://github.com/Gabriel-RQ/WebDB#readme"
+}
