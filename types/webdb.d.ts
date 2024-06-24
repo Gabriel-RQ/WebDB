@@ -47,7 +47,7 @@ export class WebDB {
    */
   transaction(
     storeNames: string | string[],
-    mode: IDBTransactionMode
+    mode?: IDBTransactionMode
   ): IDBTransaction;
 
   /**

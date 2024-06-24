@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrq/webdb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal promise wrapper for the IndexedDB API.",
   "type": "module",
   "main": "src/webdb.js",
