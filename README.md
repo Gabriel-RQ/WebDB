@@ -66,7 +66,7 @@ await db.init();
 // Insert data into the database
 db.add("user", { username: "James", email: "james@mail.com" }); // ID 1
 db.add("user", { username: "Anne", email: "anne@mail.com" }); // ID 2
-const key = db.add("user", {
+const key = await db.add("user", {
   id: 3,
   username: "Mr. Troll",
   email: "123@mail.com",
@@ -78,7 +78,7 @@ db.add("book", { title: "White Night", isbn: 456123 });
 db.put("book", { title: "White Nights", isbn: 456123 });
 
 // Delete data from the database
-db.delete("user", 3);
+db.delete("user", key);
 
 // Or clear the database ⚠️⚠️⚠️
 // db.clear()
